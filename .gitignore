@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache and build files
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Secrets and local config
+.env
+
+# Captured data (private network traffic)
+*.db
+*.sqlite
+*.sqlite3
+*.pcap
+*.pcapng
+
+# Logs
+*.log
+logs/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
